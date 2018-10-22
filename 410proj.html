@@ -2,22 +2,26 @@
         
     <head>
         <title>410 Project: Database Access</title>
+        <div align="center"><img id="logo" src="atlogo.jpg" ></div>
         <h1 align="center">410 Project: Database Access</h1>
         <style>
             @import url("410proj.css");
             html {
                     background-color: #FFE571;
+                    color: #0f469e;
             }
         </style>
         
     </head>
-    <body >
-        <img id="banner1" src="ncat.png" class="rotate90" align="right">
-        <img id="banner2" src="ncat.png" class="rotate270" align="left">
+    <div class="rotate90"><img id="banner1" src="ncat.png" ></div>
+    
+    <img id="banner2" src="ncat.png" class="rotate270" align="left">
+    <body>
+        
         <div align="center">
         <h3>Enter Query String: </h3><br>
-        <input type="text" id="Query" name="Query" value="Input Query">
-        <button onclick="showQuery()">Submit </button>
+        <input type="text" class="resizedTextbox" id="Query" name="Query" value="Input Query">
+        <button onclick="showQuery()" class="resizedButton">Submit </button>
         
         <p>Query string entered: </p><p id = "qStr"></p>
         <script>
@@ -29,4 +33,7 @@
         </script>
         </div>
     </body>
+    <footer>
+        <div class="a" align="center"><img id="logo" src="ciscologo.jpg" height="150" width="400"></div>
+    </footer>
 </html>
